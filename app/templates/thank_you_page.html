@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 10%, #e9ecef 20%, #ced4da 50%, #e9ecef 80%, #e9ecef 90%, #f8f9fa 100%);
+            color: #495057;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #343a40;
+            font-size: 2.0rem;
+            margin-bottom: 55px;
+        }
+
+        .customer-info {
+            font-size: 1.0rem;
+            margin-bottom: 15px;
+            color: #495057;
+        }
+
+        .customer-info strong {
+            color: #007bff;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.7rem;
+            text-align: center;
+            color: #6c757d;
+        }
+    </style>
+
+    <title>HappyShop</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Дякуємо! Ваш запит прийнято.</h1>
+
+        <div class="customer-info">
+            <p><strong><span style="color: #007bff;">Продукт:</span></strong> {{ product }}</p>
+            <p><strong><span style="color: #007bff;">Ім'я:</span></strong> {{ name }}</p>
+            <p><strong><span style="color: #007bff;">Телефон:</span></strong> {{ phone }}</p>
+            <p><strong><span style="color: #007bff;">Місто:</span></strong> {{ city }}</p>
+            <p><strong><span style="color: #007bff;">Номер відділення Нової Пошти:</span></strong> {{ delivery }}</p>
+            <p><strong><span style="color: #007bff;">Дзвінок:</span></strong> {{ call }}</p>
+            <p><strong><span style="color: #007bff;">Кількість:</span></strong> {{ amount }}</p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="footer">
+        &copy; 2024 HappyShop. All rights reserved.
+    </div>
+</body>
+</html>
